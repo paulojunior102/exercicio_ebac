@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="ola.css" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+      crossorigin="anonymous"
+    />
+
+    <title>catálogo de viagens</title>
+  </head>
+  <body>
+    <header>
+      <h1 class="display-1">catálogo de viagens</h1>
+      <h3 class="display-4">Suift-Linhas aéreas</h3>
+    </header>
+    <br />
+    <hr />
+
+    <div class="container-fluid">
+      <div
+        id="carousel-teste"
+        class="carousel carousel-fade slide"
+        data-bs-ride="carousel"
+      >
+        <div class="carousel-inner">
+          <div data-bs-interval="3000" class="carousel-item">
+            <img
+              class="d-block mx-auto"
+              src="https://cdn.pixabay.com/photo/2023/03/06/17/02/ship-7833921_1280.jpg"
+            />
+            <div class="carousel-caption">
+              <h3 class="display-4">Nuruega</h3>
+            </div>
+          </div>
+          <div data-bs-interval="3000" class="carousel-item active">
+            <img
+              class="d-block mx-auto"
+              src="https://cdn.pixabay.com/photo/2023/08/24/11/09/mountains-8210439_1280.jpg"
+            />
+            <div class="carousel-caption">
+              <h3 class="display-4">Colôbia</h3>
+            </div>
+          </div>
+          <div data-bs-interval="3000" class="carousel-item">
+            <img
+              class="d-block mx-auto"
+              src="https://cdn.pixabay.com/photo/2023/07/05/18/13/mountains-8108961_1280.jpg"
+            />
+            <div class="carousel-caption">
+              <h3 class="display-4">Dinamarca</h3>
+            </div>
+          </div>
+        </div>
+        <button
+          data-bs-target="#carousel-teste"
+          data-bs-slide="prev"
+          class="carousel-control-prev"
+          type="button"
+        >
+          <span class="carousel-control-prev-icon"></span>
+        </button>
+        <button
+          data-bs-target="#carousel-teste"
+          data-bs-slide="next"
+          class="carousel-control-next"
+          type="button"
+        >
+          <span class="carousel-control-next-icon"></span>
+        </button>
+        <div class="carousel-indicators">
+          <button
+            type="button"
+            data-bs-target="#carousel-teste"
+            class="active"
+            data-bs-slide-to="0"
+          ></button>
+          <button
+            type="button"
+            data-bs-target="#carousel-teste"
+            data-bs-slide-to="1"
+          ></button>
+          <button
+            type="button"
+            data-bs-target="#carousel-teste"
+            data-bs-slide-to="2"
+          ></button>
+        </div>
+      </div>
+    </div>
+
+    <br />
+    <hr />
+    <h2 class="display-2">Lugares turisticos</h2>
+    <br />
+    <div class="container">
+      <div class="row g-3">
+        <div class="col-md-4 col-xs-12 coluna">
+          <div class="card border-5 border-dark">
+            <div class="card-header display-6" id="ajuste">Noruega</div>
+            <div class="card-body">
+              <h4 class="card-title">Continente europeu</h4>
+              <p class="card-text">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Mollitia velit ad officia magni magnam eius iusto! Quo, omnis?
+                Dolores fuga consequatur consequuntur nulla cupiditate
+                architecto quidem eveniet, ipsa aperiam rerum neque unde quis,
+                recusandae culpa a exercitationem nostrum aliquid? Minima
+                nesciunt dolor velit. Soluta labore sed nemo quam aut expedita
+                doloremque. Temporibus alias voluptates aperiam quos pariatur
+                libero cumque soluta? Corporis accusantium illo eum, incidunt
+                atque laborum nihil itaque quis suscipit iure ab sunt qui
+                perferendis voluptatibus! Earum ipsam blanditiis consequatur
+                ipsum molestias minima odio vero totam cum quo voluptate
+                perferendis sint, repellat laborum voluptates eos amet dolore
+                voluptatibus ducimus!
+              </p>
+              <button
+                class="btn btn-dark"
+                data-bs-toggle="collapse"
+                data-bs-target="#textoUm"
+              >
+                Mais informações
+              </button>
+              <div class="collapse p-2" id="textoUm">
+                <br />
+                <h6>Pontos turisticos</h6>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta
+                blanditiis consequuntur unde laudantium cumque sed dolorum sequi
+                veritatis, itaque provident inventore ab laboriosam, praesentium
+                perspiciatis quisquam neque culpa, fugiat nihil.
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-12 col-md-6 col-lg-4">
+          <div class="card border-5 border-dark">
+            <div class="card-header display-6" id="ajuste">Colôbia</div>
+            <div class="card-body">
+              <h4 class="card-title">América do Sul</h4>
+              <p class="card-text">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo in
+                eveniet natus quia a molestiae ut temporibus expedita
+                consequuntur asperiores. Hic quas voluptate veniam maxime
+                accusantium fugiat cupiditate, facilis id doloremque. Ut animi
+                esse explicabo dolore repudiandae, perferendis porro
+                exercitationem, quos voluptates, facere sunt? Hic fugit
+                cupiditate culpa blanditiis quibusdam? Deserunt temporibus ab
+                corporis fugiat laborum facere doloremque suscipit sapiente
+                necessitatibus culpa libero ipsum itaque dolores modi
+                architecto, repudiandae quod, perferendis aperiam quas
+                perspiciatis? Voluptatem nihil reprehenderit reiciendis quae
+                dolor hic blanditiis eveniet asperiores esse sequi maxime
+                necessitatibus a, eos nam nostrum expedita explicabo error
+                laborum magni, corrupti sint veniam.
+              </p>
+              <button
+                class="btn btn-dark"
+                data-bs-toggle="collapse"
+                data-bs-target="#textoDois"
+              >
+                Mais informações
+              </button>
+              <div class="collapse p-2" id="textoDois">
+                <br />
+                <h6>Pontos turisticos</h6>
+                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Magnam
+                quam, fugit deserunt temporibus quos assumenda atque nisi eaque.
+                Nostrum voluptatum excepturi sunt doloribus tempore. Reiciendis
+                fugiat corrupti officia placeat distinctio! Dolore, debitis eum
+                ipsam odit ipsa ea alias eos doloremque a eaque sequi magnam
+                nihil repellendus earum molestiae incidunt illo odio? Placeat
+                quaerat expedita debitis. Et consequuntur placeat expedita,
+                minima debitis, itaque culpa soluta ducimus voluptatum odit quae
+                cumque numquam. Totam illum odit, tempora non repellat a, labore
+                vel aut ratione consectetur nulla deleniti at modi numquam rem
+                dolorem velit illo officia soluta perspiciatis. Minus impedit
+                delectus corrupti adipisci optio.
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-12 col-md-6 col-lg-4">
+          <div class="card border-5 border-dark">
+            <div class="card-header display-6" id="ajuste">Dinamarca</div>
+            <div class="card-body">
+              <h4 class="card-title">Norte da Europa</h4>
+              <p class="card-text">
+                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Beatae
+                deserunt repudiandae nesciunt voluptatibus quidem, commodi esse,
+                itaque tenetur optio minus sequi impedit rem nobis totam velit
+                iusto nostrum deleniti praesentium eligendi hic! Beatae,
+                repudiandae fugit. Quas dolores ad fuga delectus aperiam illum
+                fugit recusandae ea sunt reiciendis, vitae, molestiae ducimus
+                tenetur voluptate, non iure nisi dignissimos. Fuga deleniti
+                totam quas ipsam facilis praesentium nemo hic, iure beatae
+                consequatur, aperiam nihil minus magni id culpa dolorum ab,
+                provident in. Aliquam, consequatur? Incidunt ea laboriosam quos,
+                magnam corrupti illum tempore doloremque eaque voluptatum
+                aliquid architecto error! Repudiandae beatae exercitationem
+                deleniti aliquam neque!
+              </p>
+              <button
+                class="btn btn-dark"
+                data-bs-toggle="collapse"
+                data-bs-target="#textoTres"
+              >
+                Mais informações
+              </button>
+              <div class="collapse p-2" id="textoTres">
+                <br />
+                <h6>Pontos turisticos</h6>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi
+                fugit nisi cumque pariatur possimus minus quisquam nemo quae.
+                Autem necessitatibus atque facere nesciunt eligendi
+                reprehenderit quidem voluptas nostrum beatae iste molestias,
+                odio magni in enim earum debitis, cumque quaerat rerum
+                repellendus iure repudiandae tempora dignissimos. Quis quibusdam
+                a iure voluptates, nostrum placeat ea, omnis neque, facere sint
+                odit rem sequi rerum maiores minima ad tenetur sed.
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>

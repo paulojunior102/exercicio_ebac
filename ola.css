@@ -1,0 +1,21 @@
+#navbar {
+  background-color: antiquewhite;
+  border-radius: 10px;
+}
+#ajuste,
+h4,
+h1,
+h3,
+h2 {
+  text-align: center;
+  text-decoration: underline;
+}
+#border {
+  border: 2px;
+}
+#ajustando {
+  text-align: center;
+}
+#titulo {
+  text-align: center;
+}
